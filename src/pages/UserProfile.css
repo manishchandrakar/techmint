@@ -1,0 +1,19 @@
+/* UserProfile.css */
+
+.user-profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-to-directory-link {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.back-to-directory-link:hover {
+  text-decoration: underline;
+}

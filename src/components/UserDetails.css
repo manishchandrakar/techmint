@@ -1,0 +1,26 @@
+/* UserDetails.css */
+
+.user-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.user-details.expanded {
+  background-color: #fff; /* Change background color when expanded */
+}
+
+.user-details h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-details p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}

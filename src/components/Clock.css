@@ -1,0 +1,20 @@
+/* Clock.css */
+
+.clock-container {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Set a fixed width for larger screens */
+  margin: 0 auto; /* Center the clock on the screen */
+}
+
+/* Responsive styling using media queries */
+@media screen and (max-width: 600px) {
+  .clock-container {
+    width: 100%; /* Make the clock full width on smaller screens */
+  }
+}

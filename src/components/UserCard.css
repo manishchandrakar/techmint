@@ -1,0 +1,36 @@
+/* UserCard.css */
+
+.user-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.user-card.selected {
+  background-color: #f0f0f0;
+}
+
+.directory-button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 1.2rem;
+}
+
+.user-details {
+  margin-top: 10px;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+/* Add additional styling as needed */

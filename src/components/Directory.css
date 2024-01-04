@@ -1,0 +1,59 @@
+/* Directory.css */
+
+.directory-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.directory-heading {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.directory-heading h2 {
+  margin: 0;
+}
+
+.directory-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.back-button,
+.pause-start-button,
+profile-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.country-dropdown {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.timer {
+  font-size: 1.2rem;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  font-size: 1rem;
+}

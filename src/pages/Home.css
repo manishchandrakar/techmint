@@ -1,0 +1,67 @@
+/* Home.css */
+
+body{
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.directory-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.directory-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.directory-buttons button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.directory-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.timer {
+  font-size: 1.2rem;
+}
+
+.directory-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.directory-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.directory-details p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .directory-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .directory-buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
